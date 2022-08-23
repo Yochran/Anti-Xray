@@ -1,0 +1,18 @@
+name: AntiXray
+version: '${project.version}'
+main: me.yochran.ax.AntiXray
+api-version: 1.19
+authors: [ Yochran ]
+description: A lightweight anti-xray plugin.
+website: https://yochran.github.io/Website
+commands:
+  ax:
+    description: AntiXray command
+    aliases: [axray, anti-xray]
+permissions:
+  ax.alerts:
+    description: View anti xray alerts.
+  ax.command:
+    description: Use the ax command
+  ax.bypass:
+    description: Bypass alerts
